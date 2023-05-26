@@ -22,6 +22,11 @@ JOBS = [{
   'title': 'UI UX Designer',
   'location': 'Remote',
   'salary': 'Rs 1,30,000'
+}, {
+  'id': 5,
+  'title': 'System Analyst',
+  'location': 'USA',
+  'salary': 'Rs 1,90,000'
 }]
 
 
@@ -34,6 +39,6 @@ def Hello_World():
 def list_jobs():
   return jsonify(JOBS)
 
- 
+
 if __name__ == "__main__":
   app.run(host='0.0.0.0', debug=True)
